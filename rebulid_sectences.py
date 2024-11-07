@@ -28,5 +28,4 @@ def rebuild_sentence(words, lengths):
 
 word_list = read_user_word()
 word_length_list = read_user_word_length()
-print(word_list,word_length_list)
-# rebuild_sentence(word_list,word_length_list)
+print(rebuild_sentence(word_list,word_length_list))
