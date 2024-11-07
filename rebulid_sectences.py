@@ -2,7 +2,12 @@ def read_user_word():
     words_sentence=input("enter your sentence : ")
     words_list=words_sentence.split()
     print(words_list) 
-read_user_word()
+def read_user_word_length():
+    words_length=input("enter length of each word : ")
+    words_length_list=list(map(int,words_length.split()))
+    print(words_length_list) 
+read_user_word_length()
+# read_user_word()
 # def rebuild_sentence(words, lengths):
 #     # initialize empty string to saves the trimmed words
 #     trimmed_words = []
